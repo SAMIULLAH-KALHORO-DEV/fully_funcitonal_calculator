@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(brightness: Brightness.light),
       darkTheme: ThemeData(brightness: Brightness.dark),
       themeMode: ThemeMode.system,
+      // select your theme mode through code or changing your device theme mode dark or light !
       home: const Calculator(),
     );
   }
